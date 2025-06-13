@@ -1,4 +1,3 @@
-
 import { Image,Typography, Layout } from 'antd'
 import viLogo from './assets/react.svg'
 import Home from './components/Home/Home'
@@ -12,12 +11,13 @@ function App() {
     <div>
      <Layout style={styles.layout}>
         <Header style={styles.header}>
-          <Image style={styles.image} width="45"  src={viLogo}/>
-          &nbsp;
-          <Title style={styles.title}>Lite App</Title>
+          <Image style={styles.image} width={48} src={viLogo} preview={false} />
+          <span>
+            <Title style={styles.title}>Lite App</Title>
+          </span>
         </Header>
         <Home/>
-        <Footer style={styles.footer}>2025 Lite App</Footer>
+        <Footer style={styles.footer}>© 2025 Lite App — All rights reserved.</Footer>
     </Layout>
     </div>
   )

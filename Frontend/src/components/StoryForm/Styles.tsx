@@ -8,8 +8,16 @@ const styles: Record<string, CSSProperties> = {
  },
  formCard:{
     width : 390,
-    position :"fixed",
-    margin : "30px 10px"
+    margin : "30px 10px",
+    position : "relative",
+    left : 0,
+    top : 0,
+    padding:'20px',
+    textAlign : "center",
+   //  display: 'flex',
+   //  flexDirection: 'column',
+   //  alignItems: 'center',
+   //  justifyContent: 'center',
  }
 }
 
